@@ -10,25 +10,36 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;300;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <div class="media">
-      <div class="media__image">
-        <svg class="icon">
-          <use xlink:href="images/sprite.svg#snap"></use>
-        </svg>
-      </div>
-      <div class="media__body">
-        <h3 class="media__title">Easy Start & Managed Updates</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
-          quod sed sit rerum animi delectus tempora iure voluptas adipisci,
-          laboriosam voluptatibus, alias ut illum.
-        </p>
-      </div>
-    </div>
+    <blockquote class="quote">
+      <p class="quote__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia illo
+        suscipit dolorem distinctio unde rerum accusamus sed necessitatibus
+        vitae laudantium!
+      </p>
+      <footer>
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon icon--primary quote__line">
+              <use xlink:href="images/sprite.svg#line"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title quote__author">Adeyemi Odunayo</h3>
+            <p class="quote__organization">Mosh Company ceo</p>
+          </div>
+        </div>
+      </footer>
+    </blockquote>
   </body>
 </html>
