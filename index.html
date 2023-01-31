@@ -21,73 +21,75 @@
     <title>Document</title>
   </head>
   <body>
-    <section class="block block--dark block--skewed-right block-showcase">
-      <header class="block__header">
-        <h2>User-Friendly Control Panel</h2>
-      </header>
-      <div class="container grid grid--col-2">
-        <picture class="block-showcase__image">
-          <source
-            type="image/webp"
-            srcset="images/ipad.webp 1x, images/ipad.webp@2x 2x" />
-          <source
-            type="image/png"
-            srcset="images/ipad.png 1x, images/ipad.png@2x 2x" />
-          <img src="images/ipad.png" alt=""
-        /></picture>
-        <ul class="list">
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#clock"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Easy Start & Managed Updates</h3>
-                <p>
-                  Our cloud plans include easy onboarding for new and existing
-                  sites and managed WordPress and WooCommerce auto-updates.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#settings"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Staging, Git & WP-CLI</h3>
-                <p>
-                  We make your WordPress and WooCommerce development flow easier
-                  with a convenient staging tool and Git and WP-CLI integration.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#wordpress"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media__title">Dynamic Caching & More</h3>
-                <p>
-                  Speed up your WordPress and Woo sites with our SG Optimizer
-                  plugin through smart dynamic caching and multiple other
-                  performance optimizations.
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
+    <footer class="block block--dark footer">
+      <div class="container grid footer__sections">
+        <section class="collapsible collapsible--expanded footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">PRODUCTS</h2>
+            <svg class="icon icon--primary collapsible__chevron">
+              <use xlink:href="images/sprite.svg#menu"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="">Website Hosting</a></li>
+              <li><a href="">Free Automated</a></li>
+              <li><a href="">Wordpress</a></li>
+              <li><a href="">Migrations</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">COMPANY</h2>
+            <svg class="icon icon--primary collapsible__chevron">
+              <use xlink:href="images/sprite.svg#menu"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="">About</a></li>
+              <li><a href="">Affiliates</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">SUPPORT</h2>
+            <svg class="icon icon--primary collapsible__chevron">
+              <use xlink:href="images/sprite.svg#menu"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="">Contact</a></li>
+              <li><a href="">Knowledge Base</a></li>
+              <li><a href="">FAQ</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="collapsible footer__section">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading footer__heading">DOMAINS</h2>
+            <svg class="icon icon--primary collapsible__chevron">
+              <use xlink:href="images/sprite.svg#menu"></use>
+            </svg>
+          </header>
+          <div class="collapsible__content">
+            <ul class="list">
+              <li><a href="">Domain Checker</a></li>
+              <li><a href="">Domain Transfer</a></li>
+              <li><a href="">Free Domain</a></li>
+            </ul>
+          </div>
+        </section>
+        <sectiion class="footer__brand">
+          <img src="images/logo.svg" alt="" />
+          <p class="footer__copyright">Copyright 2023 Adeyemi Odunayo</p>
+        </sectiion>
       </div>
-    </section>
+    </footer>
     <script src="js/main.js"></script>
   </body>
 </html>
